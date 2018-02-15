@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: JavaCourses1
-  Date: 25.01.2018.
-  Time: 18:33
+  Date: 15.02.2018.
+  Time: 19:01
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -21,12 +21,12 @@
 <div class="w3-display-container container">
     <div class="w3-card-4 w3-display-middle">
         <header class="w3-container w3-blue">
-            <h2>Registration</h2>
+            <h2>Game over</h2>
         </header>
         <form class="w3-container" action="register" method="post">
             <p>
-                <label for="player-name" class="w3-text-blue"><b>Enter your name:</b></label>
-                <input class="w3-input w3-border" id="player-name" type="text" name="player-name">
+                <h2 class="w3-text-blue"><b>You won!!!</b></h2>
+
             </p>
             <p>
                 <input class="w3-button w3-blue" type="submit" name="register" value="Start!">
@@ -36,8 +36,4 @@
 </div>
 </body>
 </html>
-<%--
-  action - chto budet vyzyvatjsja path for brouser (if with "\" then saebattle disappears)
-  method post - not to show all parameters
---%>
 
